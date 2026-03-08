@@ -156,23 +156,23 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="grid gap-6 md:grid-cols-2 mb-12">
+        <div className="grid gap-6 md:grid-cols-[1.4fr_1fr] mb-12 items-stretch">
           <div className="overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-md transition-shadow">
             <Image
               src="/shop/tactile-box-full.png"
               alt="Tactile box — full overview with Braille panels, wheels, motors, electronics, and gears"
-              width={800}
-              height={600}
-              className="w-full h-auto object-cover"
+              width={960}
+              height={720}
+              className="w-full h-full object-cover"
             />
           </div>
-          <div className="overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-md transition-shadow">
+          <div className="overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-md transition-shadow bg-white dark:bg-slate-800/30 flex items-center justify-center p-6">
             <Image
               src="/shop/braille-book-cover.png"
               alt="Braille book — Tactile Ecosystem: FIRST Tech Championship by Overtime FTC #33611"
-              width={800}
-              height={600}
-              className="w-full h-auto object-cover"
+              width={500}
+              height={700}
+              className="w-auto h-full max-h-[400px] object-contain drop-shadow-lg"
             />
           </div>
         </div>
