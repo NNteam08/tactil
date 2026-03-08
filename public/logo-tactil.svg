@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="96" fill="#f97316"/>
+  
+  <!-- Braille dots pattern (3x2 grid, centered) -->
+  <circle cx="72" cy="62" r="10" fill="white"/>
+  <circle cx="100" cy="62" r="10" fill="white"/>
+  <circle cx="128" cy="62" r="10" fill="white"/>
+  <circle cx="72" cy="92" r="10" fill="white"/>
+  <circle cx="128" cy="92" r="10" fill="white"/>
+  <circle cx="100" cy="92" r="10" fill="white" opacity="0.4"/>
+  
+  <!-- "TACTIL" text -->
+  <text x="100" y="142" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="32" fill="white" letter-spacing="3">TACTIL</text>
+  
+  <!-- Small subtitle -->
+  <text x="100" y="162" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="500" font-size="11" fill="white" opacity="0.8" letter-spacing="1.5">FTC ROBOTICS</text>
+</svg>

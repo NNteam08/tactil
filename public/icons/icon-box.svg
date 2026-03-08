@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none">
+  <defs>
+    <filter id="glow-bx">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  <circle cx="40" cy="40" r="38" fill="#1c1917" stroke="#f97316" stroke-width="2"/>
+  <g filter="url(#glow-bx)">
+    <path d="M16 28l24-12 24 12v20l-24 12-24-12V28z" stroke="#f97316" stroke-width="2.5" stroke-linejoin="round" fill="none"/>
+    <path d="M16 28l24 12 24-12" stroke="#f97316" stroke-width="2.5" stroke-linejoin="round" fill="none"/>
+    <path d="M40 40v20" stroke="#f97316" stroke-width="2.5" fill="none"/>
+    <circle cx="28" cy="34" r="2" fill="#f97316" opacity="0.5"/>
+    <circle cx="40" cy="30" r="2" fill="#f97316" opacity="0.5"/>
+    <circle cx="52" cy="34" r="2" fill="#f97316" opacity="0.5"/>
+  </g>
+</svg>
